@@ -128,6 +128,7 @@ private  void query(){
             case R.id.add:
                 Intent intent=new Intent(MainActivity.this,Main2Activity.class);
                 startActivityForResult(intent,100);
+                System.out.println("sssssssssssss");
                 break;
         }
     }
@@ -148,6 +149,7 @@ private  void query(){
                 query();
                 adapters.notifyDataSetChanged();
                 break;
+
 
         }
     }
