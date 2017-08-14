@@ -13,7 +13,7 @@ import coda.expamle.com.greendaodemoyuekao.dao.DaoMaster;
     public class GreenDaoHelper {
 
         private static GreenDaoHelper greenDaoHelper;
-
+//我修改代码了恩
         private DaoMaster.DevOpenHelper devOpenHelper;
 
         public GreenDaoHelper(Context context) {
